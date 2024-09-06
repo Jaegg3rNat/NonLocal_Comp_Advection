@@ -6,13 +6,13 @@ This repository contains the codebase and some example data for the simulations,
 ## Contents
 The repository is structured around:
 
-Run_Integration_Flow.py: The main code that drives the simulation process. It implements the Pseudospectral Method of integration. It is responsible for run the time evolution for any given static velocity field $v_x,v_y$
+Run_Flow_Integration.py: The main code that drives the simulation process. It implements the Pseudospectral Method of integration. It is responsible for run the time evolution for any given static velocity field $v_x,v_y$
 
-Run_Snapshots: This script takes the output from the simulation and generates snapshots at various stages of the time evolution, allowing for a visual inspection of the simulation's progression..
+Run_Snapshots.py: This script takes the output from the simulation and generates snapshots at various stages of the time evolution, allowing for a visual inspection of the simulation's progression..
 
-Run_Animate: This script animates the generated snapshots, providing a dynamic view of the simulation's evolution over time.
+Run_Animate.py: This script animates the generated snapshots, providing a dynamic view of the simulation's evolution over time.
 
-Run_Segmentation: This script performs a segmentation analysis on the simulation results. In order to create the Example figure in the repository (and paper).
+Run_Segmentation.py: This script performs a segmentation analysis on the simulation results. In order to create the Example figure in the repository (and paper).
 This python file runs the segmentation process implemented as follow:
    - View the Raw data of the patterns with a normalized to 20% o the maximum value.
    - Binarize the data to this treshold
@@ -30,5 +30,8 @@ Observations in this segmentation process:
  - Python 3.x
  - NumPy, Matplotlib, sys, os, tqdm
  - fftpack from scipy (for fourier transform)
+ - scikit-learn
+ - seaborn
+ - numba
  - h5py (for saving data)
  - cv2 (for animations)
