@@ -1,13 +1,15 @@
 # NonLocal_Comp_Advection
 
 
-This Repository was create to contain the main codes used in the development of numerical simulations 
+This repository contains the codebase and data for the simulations, visualizations, and analyses conducted as part of the research presented in [Journal Name] under the title "Shear and transport in a flow environment determine spatial patterns and population dynamics in a model of nonlocal ecological competition."
 
-The Main Code is the Run_Integration_Flow.py 
-- Is used to perform the pseudospectral integration of the Non-Local logistic model with Advection.
+## Contents
+The repository is structured around ...:
 
-  The standard running consists in run the simulation until it reaches the equilibrium.
-  The only output is the the final density distribution in 2-dimensions.
-  The time array
-  The complete array of mean density for each time step dt.
+Simulation Script: The main code that drives the simulation process. It uses the supporting script to perform detailed computations based on the configured parameters.
 
+Snapshot Generation Script: This script takes the output from the simulation and generates snapshots at various stages, allowing for a visual inspection of the simulation's progression.
+
+Animation Script: This script animates the generated snapshots, providing a dynamic view of the simulation's evolution over time.
+
+Segmentation Analysis Script: This script performs a segmentation analysis on the simulation results, helping to extract and quantify key patterns and features.
