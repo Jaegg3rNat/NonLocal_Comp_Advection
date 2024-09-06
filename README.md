@@ -46,7 +46,7 @@ Observations in this segmentation process:
          The default of Run_Flow_Integration is to save only the final equilibrium configuration. To change this uncomment the section in the Run_Flow_Integration.py that saves the configurations over time.
 
    As an example:
-      - Before run Run_Flow_Integration, change the integration time variable 'T' for a shorter value (T = 2000) and uncomment the lines 390 and 391.
+      - Before run Run_Flow_Integration, change the integration time variable 'T' for a shorter value (T = 2000) and uncomment the lines 447 and 448
       - Use as external input mu = 500 , pe =50. This will create the evolution data for sinusoidal_mu800_pe_50 in the R_0.2 directory and will allow the running of the 'Run_Snapshots.py' script.
    - Run_Animate works only after the snapshots figures were generated
 
