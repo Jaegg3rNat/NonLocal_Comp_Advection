@@ -35,3 +35,15 @@ Observations in this segmentation process:
  - numba
  - h5py (for saving data)
  - cv2 (for animations)
+
+
+
+ ### Instructions
+
+ - The file Run_Flow_Integration needs two input parameters from sys.argv:
+    the DamKholer variable mu. The Peclet intensity variable pe
+ - The Run_Snapshots file will only work if Run_Flow_Integration integration was perfomed saving the density configurations over time
+         The default of Run_Flow_Integration is to save only the final equilibrium configuration. To change this uncomment the section in the Run_Flow_Integration.py that saves the configurations over time.
+   As an example we include the data for sinusoidal_mu800_pe_50 in the R_0.2 directory to be able to run the Run_Snapshots script.
+   - Run_Animate works only after the snapshots figures were generated
+   - 
