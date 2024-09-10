@@ -1,7 +1,7 @@
 # NonLocal_Comp_Advection
 
 
-This repository contains the codebase and some example data for the simulations, visualizations, and analyses conducted as part of the research presented in [Journal Name] under the title "Shear and transport in a flow environment determine spatial patterns and population dynamics in a model of nonlocal ecological competition."
+This repository contains the codebase and some example data for the simulations, visualizations, and analyses conducted as part of the research presented under the title "Shear and transport in a flow environment determine spatial patterns and population dynamics in a model of nonlocal ecological competition."
 
 ## Contents
 The repository is structured around:
