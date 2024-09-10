@@ -31,7 +31,7 @@ Observations in this segmentation process:
  - NumPy, Matplotlib, sys, os, tqdm
  - fftpack from scipy (for fourier transform)
  - scikit-learn
- - seaborn
+ - Seaborn
  - numba
  - h5py (for saving data)
  - cv2 (for animations)
